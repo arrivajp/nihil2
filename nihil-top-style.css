@@ -1,0 +1,109 @@
+body, html {
+  height: 100%;
+  width: auto;
+  top: 0;
+  margin: 0;
+  background-image: url("背景.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a, p{
+  color: white;
+}
+
+.fa{
+  color: white;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style: none;
+}
+
+img {
+  height: 55px;
+  width: auto;
+}
+
+.container{
+  height: 100%;
+  width: auto;
+}
+
+.nihil-centre{
+  color: white;
+  align: center;
+  padding-top: 150px;
+  font-size:30px;
+  font-weight: 800;
+  letter-spacing: 30px;
+  font-family: helvetica;
+}
+
+.subtitles{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 180px;
+  display: inline-block;
+  text-align: center;
+}
+
+.subtitles img{
+  float: left;
+  padding:10px 10px;
+}
+
+.subtitles ul img {
+  height: 50px;
+  color: white;
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+  filter: invert(100%);
+
+}
+
+.letters0, .letters1, .letters2, .letters3{
+  /* display: none; */
+}
+
+
+.sns{
+  color: white;
+  font-size: 20px;
+  bottom: 100px;
+  position: fixed;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.sns div{
+  letter-spacing: 13px;
+  display: inline-block;
+}
+
+.subtitles p {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-style: italic;
+  color: white;
+  opacity: 0;
+}
+
+.subtitles li{
+  position: relative;
+  display: inline-block;
+}
