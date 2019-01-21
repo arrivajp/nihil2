@@ -48,6 +48,7 @@ img {
   font-weight: 800;
   letter-spacing: 30px;
   font-family: helvetica;
+  padding-left: 35px;
 }
 
 .subtitles{
@@ -106,4 +107,18 @@ img {
 .subtitles li{
   position: relative;
   display: inline-block;
+}
+
+
+@media(max-width:480px){
+.subtitles{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.subtitles li{
+  display: flex;
+}
+
 }
